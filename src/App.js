@@ -1,12 +1,9 @@
-  
 import './App.css';
 
-function App() {
+import Rotas from './rotas';
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>Projeto Sorveteria</h1>
-    </div>
+    <Rotas  />
   );
 }
-
-export default App;
